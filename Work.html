@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>I LOVE MOB HISTORY</title>
+<style> 
+  
+body { background-image:url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/163/017/original/Vlcsnap-2011-03-03-18h47m28s153.jpg?1744580760") }
+
+h1 {
+        font-style: normal;
+        font-weight: 100;
+        font-size: 12px;
+        color: yellow;
+        text-align: center;
+        font-size: 42px; 
+      }
+h2 {
+        font-style: italic;
+        font-weight: 100;
+        font-size: 12px;
+        color: grey;
+        text-align: center;
+        font-size: 40px; 
+      }
+    
+p { font-style: normal;
+        font-weight: 100;
+        font-size: 22px;
+        color: white;
+        text-align: center;
+        margin: 30px 0 10px; 
+
+}
+
+img { display : block; 
+margin: 0  auto;
+max-width: 80% }
+
+button { display: block;
+        margin: 20px auto;
+        border: 1px solid #9ea0a3;
+        background: white;
+        color: #070707;
+        font-size: 16px;
+        line-height: 22px;
+        padding: 16px 24px;
+        border-radius: 30px;
+        transition: all 200ms ease-in-out;
+        box-shadow:  rgba(107, 107, 119, 0.08) 0px 8px 8px 0;
+        cursor: pointer; }
+
+button:hover { 
+background: grey;
+color: white;
+border :#070707
+}
+.read-more { 
+color: yellow;
+font-size: 16px
+
+}
+
+.read-more:hover { 
+  color:#9ea0a3
+}
+.substance{
+  max-width: 800px ;
+  margin:0 auto;
+  padding: 60px;
+}
+</style>
+</head>
+<body>
+<div class= "substance">
+
+    <h1> LA COSA NOSTRA </h1>
+    <h2> THE RISE AND FALL OF "THIS THING OF OURS"  </h2>
+  <img src="https://upload.wikimedia.org/wikipedia/en/d/df/Michaelcoreleone.jpg" alt="Al Pacino as Michaelcoreleone">
+<p> 
+<br>
+The La Cosa Nostra, also known in the English language as "This thing of ours" is the Italian Mafia. The La Cosa Nostra
+began in Sicily, an island in the South of Italy. The Mafia later expanded to America and was found mainly in New York pioneered 
+likes of Lucky Luciano, Carlo Gambino and Giuseppe Masseria. The mob ran successfully despite the efforts of law enforcement
+until the organisation forced the hand of law enforcement when it turned the city into a blood bath in the 70-90s and inflitrating 
+the construction industry and other government funded industries.
+</br>
+
+In the 80s in New York City, the mob had complete control over the unions, this meant that crime organisation had almost
+complete control over legitimate business in the city resulting in the city losing millions to the crime organisation every year. 
+It seemed as though, the mob was unstoppable until one tool helped Law enforcement win back the city in the 90s and 
+that tool was what we know to day as... THE RICO LAW.
+</p>
+<a 
+href= "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/163/016/original/Michaelcoreleone.jpg?1744580533" target="blank" 
+class="read-more" >
+Read more on Wikipedia
+</a>
+<button> 
+  Mob History Playlist 
+</button>
+</div>
+<script>
+  function askEmail () {
+    let name = prompt("What is your name?");
+    name = name.toLowerCase().trim();
+    let temperature = prompt("What is your email address");
+    alert ("Thank you, " + name + "😁" + "! The playlist will be sent to your email shortly")
+  }
+   let askButton = document.querySelector("button");
+     askButton.addEventListener("click", askEmail);
+   
+</script>
+</body>
+</html>
